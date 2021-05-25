@@ -54,7 +54,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
 }
 .card-panel h2 {
   font-size: 1.6rem;
-  text-align: center;
+  text-align: 1center;
 }
 .card-panel p {
   text-align: center;
