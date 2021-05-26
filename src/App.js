@@ -2,7 +2,7 @@ import React, { Fragment, useState, useEffect } from 'react';
 import Header from './components/Header';
 import Formulario from './components/Formulario';
 import Clima from './components/Clima';
-import Error from './components/Error';
+import Error from './components/Error'; 
 
 function App() {
 
@@ -41,6 +41,7 @@ function App() {
 
     }
     consultarAPI()
+    // eslint-disable-next-line
   }, [consultar]);
 
   let componente;
